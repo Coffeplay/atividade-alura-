@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    transition: background-color 0.5s, color 0.5s, font-size 0.3s;
+    margin: 20px;
+  }
+  
+  .conteudo p {
+    font-size: 16px; /* Tamanho inicial */
+    line-height: 1.5;
+  }
+  
+  .controle-btn {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .controle-btn:hover {
+    background-color: #0056b3;
+  }
+  
