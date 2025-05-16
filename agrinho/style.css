@@ -1,0 +1,33 @@
+p {
+    font-size: 15px; /* Define um tamanho maior */
+    color: #000000;
+  }
+  
+  body {
+    font-size: 10px; /* Aplica a mudança ao corpo do documento */
+  }
+  .texto-comum {
+    font-size: 14px;
+  }
+  .texto-titulo {
+    font-size: 18px;
+  }
+img {
+    width: 100%;
+    max-width: 500px; /* Define um limite máximo para o tamanho */
+    transition: transform 0.3s ease-in-out; /* Adiciona uma transição suave */
+  }
+  
+  img {
+    border: 2px solid #000; /* Cria uma borda preta de 5 pixels */
+    border-radius: 10px; /* Arredonda os cantos da borda */
+  }
+  
+  img {
+    position: fixed; /* Fixa a imagem na tela */
+    bottom: 8px; /* Define a posição para baixo */
+    right: 8px; /* Define a posição para a direita */
+    width: 500px; /* Ajuste o tamanho da imagem conforme necessário */
+  }
+  
+  
